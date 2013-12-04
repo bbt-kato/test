@@ -1,0 +1,20 @@
+(´・ω・`)
+(`・ω・´)
+
+●基本コマンド
+git fetch origin
+git merge origin/iss**
+
+ もしくは
+
+git pull
+
+
+●issの変更内容をdevelopに反映させる例
+git checkout develop
+git pull
+git merge iss***
+git push origin develop
+
+●とにかく作業ツリーをリモートのソースに置き換える
+git reset --hard 【置き換えるコミットのハッシュ】
